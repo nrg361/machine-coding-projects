@@ -1,6 +1,6 @@
-package org.anurag.zomatoApp.service;
+package org.anurag.bookMyShow.service;
 
-import org.anurag.zomatoApp.models.Booking;
+import org.anurag.bookMyShow.models.Booking;
 
 public class PaymentsService {
     public Boolean doPayment(Booking booking){

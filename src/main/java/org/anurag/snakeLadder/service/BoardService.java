@@ -16,7 +16,6 @@ public class BoardService {
 
     public void movePlayer(){
         Player player = players.getFirst();
-        String playerId = player.getId();
         String name = player.getName();
         Integer rolledNumber = rollDice();
         log.info("Player {} rolled a dice with {}",player.getName(), rolledNumber);

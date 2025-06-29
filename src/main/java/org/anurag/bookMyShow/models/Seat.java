@@ -1,4 +1,4 @@
-package org.anurag.zomatoApp.models;
+package org.anurag.bookMyShow.models;
 
 import lombok.Builder;
 import lombok.Getter;

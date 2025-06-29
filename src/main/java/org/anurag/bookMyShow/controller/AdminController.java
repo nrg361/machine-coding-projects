@@ -1,13 +1,11 @@
-package org.anurag.zomatoApp.controller;
+package org.anurag.bookMyShow.controller;
 
 import lombok.AllArgsConstructor;
-import org.anurag.zomatoApp.models.Show;
-import org.anurag.zomatoApp.models.Theatre;
-import org.anurag.zomatoApp.models.UserType;
-import org.anurag.zomatoApp.service.SeatService;
-import org.anurag.zomatoApp.service.ShowService;
-import org.anurag.zomatoApp.service.TheatreService;
-import org.anurag.zomatoApp.service.UserService;
+import org.anurag.bookMyShow.models.UserType;
+import org.anurag.bookMyShow.service.SeatService;
+import org.anurag.bookMyShow.service.ShowService;
+import org.anurag.bookMyShow.service.TheatreService;
+import org.anurag.bookMyShow.service.UserService;
 
 @AllArgsConstructor
 public class AdminController {

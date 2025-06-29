@@ -1,7 +1,7 @@
-package org.anurag.zomatoApp.test;
+package org.anurag.bookMyShow.test;
 
 import lombok.extern.slf4j.Slf4j;
-import org.anurag.zomatoApp.models.*;
+import org.anurag.bookMyShow.models.*;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

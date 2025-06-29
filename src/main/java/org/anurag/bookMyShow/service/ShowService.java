@@ -1,14 +1,12 @@
-package org.anurag.zomatoApp.service;
+package org.anurag.bookMyShow.service;
 
 import lombok.AllArgsConstructor;
-import org.anurag.zomatoApp.models.Seat;
-import org.anurag.zomatoApp.models.Show;
-import org.anurag.zomatoApp.models.Theatre;
-import org.anurag.zomatoApp.utils.CommonUtils;
+import org.anurag.bookMyShow.models.Show;
+import org.anurag.bookMyShow.models.Theatre;
+import org.anurag.bookMyShow.utils.CommonUtils;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Objects;
 
 @AllArgsConstructor
 public class ShowService {

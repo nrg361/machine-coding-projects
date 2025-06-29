@@ -1,9 +1,9 @@
-package org.anurag.zomatoApp.test;
+package org.anurag.bookMyShow.test;
 
-import org.anurag.zomatoApp.controller.AdminController;
-import org.anurag.zomatoApp.controller.CustomerController;
-import org.anurag.zomatoApp.models.UserType;
-import org.anurag.zomatoApp.service.*;
+import org.anurag.bookMyShow.controller.AdminController;
+import org.anurag.bookMyShow.controller.CustomerController;
+import org.anurag.bookMyShow.models.UserType;
+import org.anurag.bookMyShow.service.*;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -22,7 +22,7 @@ public class BaseTest {
         BookingService bookingService = new BookingService(paymentsService, seatLockService, seatService, new ArrayList<>());
 
         adminController = new AdminController(showService, theatreService, seatService, userService);
-        customerController = new CustomerController(bookingService, seatService, theatreService, showService);
+        customerController = new CustomerController(bookingService, seatService, theatreService);
     }
 
     protected String createTheatre(String theatreName){

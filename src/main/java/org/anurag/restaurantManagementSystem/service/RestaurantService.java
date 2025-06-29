@@ -31,7 +31,6 @@ public class RestaurantService {
                 return sortBasedOnRating(possibleRestaurants);
             default:
                 return Collections.emptyList();
-
         }
     }
 

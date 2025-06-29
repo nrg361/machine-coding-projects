@@ -1,9 +1,9 @@
-package org.anurag.zomatoApp.service;
+package org.anurag.bookMyShow.service;
 
 import lombok.AllArgsConstructor;
-import org.anurag.zomatoApp.models.User;
-import org.anurag.zomatoApp.models.UserType;
-import org.anurag.zomatoApp.utils.CommonUtils;
+import org.anurag.bookMyShow.models.User;
+import org.anurag.bookMyShow.models.UserType;
+import org.anurag.bookMyShow.utils.CommonUtils;
 
 import java.util.ArrayList;
 import java.util.List;

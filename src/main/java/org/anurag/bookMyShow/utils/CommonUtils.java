@@ -1,4 +1,4 @@
-package org.anurag.zomatoApp.utils;
+package org.anurag.bookMyShow.utils;
 
 import java.util.List;
 import java.util.UUID;
